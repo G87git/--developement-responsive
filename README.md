@@ -12,3 +12,9 @@
 - [Chancel Emmauel](https://www.github.com/g87git)
 - [Ryle](https://www.github.com/g87git)
 - [Numbu Cliff](https://www.github.com/g87git)
+
+## Screenshots
+
+![App Screenshot](https://raw.githubusercontent.com/G87git/--developement-responsive/master/Screenshot/127.0.0.1_5500_index.html.png)
+
+![App Screenshot](https://raw.githubusercontent.com/G87git/--developement-responsive/master/Screenshot/127.0.0.1_5500_index.html(iPhone%2012%20Pro).png)
