@@ -1,0 +1,211 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@import 'config';
+body{
+    background-color:$primary-color;
+    font-family: $ff-primary;
+}
+
+.container{
+    // border: solid 1px #000;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    width: 90%;
+    margin: auto;
+    padding-block: 1rem;
+    position: relative;
+    height: 100vh;
+
+    h1{
+        font-size: 10rem;
+        font-family: $ff-primary;
+        color: $secondary-color;
+        z-index: 1;
+        text-decoration: underline;
+        max-width: 100%;
+        font-weight: 800;
+        line-height: 1.2em;
+    }
+    p{
+        font-family: 'Poppins';
+        font-style: italic;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 60px;
+        max-width: 60%;
+    }
+    @import 'button';
+
+    .footer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        // border: solid 1px #000;
+        padding-block: 1rem;
+        width: 100%;
+
+        .footer-social-links{
+            display: inline-flex;
+            gap: 28px;
+            flex-flow: row wrap;
+        }
+        p{
+            font-size: 1.5rem;
+        }
+    }
+    .frame{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+    .avatar-yvan{
+        background-image: url('../Assets/PNG/IMG-20230128-WA0003.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius:50rem;
+        filter: contrast(2);
+        height: 250px;
+        position: absolute;
+        right: 12%;
+        top: 40%;
+        width: 250px;
+        z-index: 1;
+
+        .card{
+            background-color: $secondary-color;
+            border-radius: 05px;
+            display: none;
+            flex-direction: column;
+            gap: 20px;
+            padding: 1rem;
+            position: relative;
+            top: 0;
+            transition: ease-out 5s;
+            // box-shadow: 0 0 2px rgba(0, 0, 0);
+            z-index: 2;
+
+            h3{
+                font-size: 2rem;
+                color: $primary-color;
+                text-decoration: underline;
+            }
+            p{
+                font-size: 1rem;
+                line-height: normal;
+                max-width: 100%;
+                color: #fff;
+            }
+            .card-socials{
+                a:hover{
+                    opacity: .5;
+                }
+            }
+            .frame-down{
+                display: flex;
+                align-self: flex-end;
+            }
+        }
+    }
+    .avatar-yvan:hover .card{
+            display: flex;
+    }
+    .avatar-pride{
+        background-image: url('../Assets/PNG/IMG-20230128-WA0036.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius:50rem;
+        filter: contrast(2);
+        height: 150px;
+        position: absolute;
+        right: 35%;
+        bottom: 20%;
+        width: 150px;
+        z-index: 1;
+
+
+        .card{
+            background-color: $secondary-color;
+            border-radius: 05px;
+            display: none;
+            flex-direction: column;
+            gap: 20px;
+            padding: 1rem;
+            position: relative;
+            top: 0;
+            width:300px;
+            // margin-block: 1rem;
+            // box-shadow: 0 0 2px rgba(0, 0, 0);
+
+            h3{
+                font-size: 2rem;
+                color: $primary-color;
+                text-decoration: underline;
+            }
+            p{
+                font-size: 1rem;
+                line-height: normal;
+                max-width: 100%;
+                color: #fff;
+            }
+            .frame-down{
+                display: flex;
+                align-self: flex-end;
+            }
+        }
+    }
+    // .avatar-pride:hover .card{
+    //     display: flex;
+    // }
+    .avatar-ryan{
+        background-image: url('../Assets/PNG/IMG-20230128-WA0033.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius:50rem;
+        filter: contrast(2);
+        height: 80px;
+        position: absolute;
+        right: 18%;
+        // left: 0;
+        top: 20%;
+        width: 80px;
+        z-index: 1;
+
+
+        .card{
+            background-color: $secondary-color;
+            border-radius: 05px;
+            display: none;
+            flex-direction: column;
+            gap: 20px;
+            padding: 1rem;
+            position: relative;
+            top: 0;
+            width:300px;
+            // margin-block: 1rem;
+            // box-shadow: 0 0 2px rgba(0, 0, 0);
+
+            h3{
+                font-size: 2rem;
+                color: $primary-color;
+                text-decoration: underline;
+            }
+            p{
+                font-size: 1rem;
+                line-height: normal;
+                max-width: 100%;
+                color: #fff;
+            }
+            .frame-down{
+                display: flex;
+                align-self: flex-end;
+            }
+        }
+    }
+}
+    @import 'media';

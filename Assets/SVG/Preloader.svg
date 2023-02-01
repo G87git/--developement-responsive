@@ -1,0 +1,22 @@
+<svg width="611" height="611" viewBox="0 0 611 611" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Logo">
+<g id="primary">
+<circle id="Ellipse 1" cx="152.75" cy="152.75" r="152.75" fill="#003142"/>
+<circle id="Ellipse 3" cx="152.75" cy="458.25" r="152.75" fill="#003142"/>
+<circle id="Ellipse 2" cx="458.25" cy="152.75" r="152.75" fill="#003142"/>
+<circle id="Ellipse 4" cx="458.25" cy="458.25" r="152.75" fill="#003142"/>
+</g>
+<g id="secondary">
+<circle id="Canal04" cx="455.196" cy="149.695" r="76.375" fill="#FFFF00"/>
+<circle id="Canal03" cx="455.196" cy="455.195" r="76.375" fill="#FFFF00"/>
+<circle id="Canal02" cx="149.696" cy="455.195" r="76.375" fill="#FFFF00"/>
+<circle id="Canal01" cx="149.696" cy="149.695" r="76.375" fill="#FFFF00"/>
+</g>
+<rect id="Rectangle 1" width="50" height="355" rx="25" transform="matrix(0 -1 -1 0 480 175)" fill="#00BCD4"/>
+<rect id="Rectangle 5" x="452.626" y="115" width="50" height="477.475" rx="25" transform="rotate(45 452.626 115)" fill="#00BCD4"/>
+<rect id="Rectangle 6" width="50" height="477.475" rx="25" transform="matrix(0.707107 -0.707107 -0.707107 -0.707107 452.626 487.981)" fill="#00BCD4"/>
+<rect id="Rectangle 3" width="50" height="355" rx="25" transform="matrix(1 0 0 -1 125 480)" fill="#00BCD4"/>
+<rect id="Rectangle 4" width="50" height="355" rx="25" transform="matrix(1 0 0 -1 430 480)" fill="#00BCD4"/>
+<rect id="Rectangle 2" width="50" height="355" rx="25" transform="matrix(0 -1 -1 0 480 480)" fill="#00BCD4"/>
+</g>
+</svg>
